@@ -5,6 +5,14 @@ $('.slider-cont-flex').slick({
     slidesToShow: 2,
     slidesToScroll: 1,
     slideInterval:1000,
+    responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+        ]
   });
 
 // const sliderContainer = document.querySelector('.slider-cont-flex');
