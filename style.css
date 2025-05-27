@@ -1,0 +1,1607 @@
+@font-face{
+    font-family:'AeonikTRIAL-Bold.ttf';
+    src: url(./Font/AeonikTRIAL-Bold.ttf);
+}
+@font-face{
+    font-family:'AeonikTRIAL-Light.ttf';
+    src: url(./Font/AeonikTRIAL-Light.ttf);
+}
+@font-face{
+    font-family:'AeonikTRIAL-Regular.ttf';
+    src: url(./Font/AeonikTRIAL-Regular.ttf);
+}
+@font-face{
+    font-family:'HelveticaNeueBold.ttf';
+    src: url(./Font/HelveticaNeueBold.ttf);
+}
+@font-face{
+    font-family:'inter_Inter-Medium.ttf';
+    src: url(./Font/inter_Inter-Medium.ttf);
+}
+@font-face{
+    font-family:'inter_Inter-Regular.ttf';
+    src: url(./Font/inter_Inter-Regular.ttf);
+}
+@font-face{
+    font-family:'inter_Inter-SemiBold.ttf';
+    src: url(./Font/inter_Inter-SemiBold.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+}
+header{
+    width: 100%;
+    /* display: inline-flex; */
+    overflow: hidden;
+    /* white-space: nowrap; */
+    background-color: #4169E1;
+    /* text-align: center; */
+    /* align-items: center; */
+    text-align: center;
+    padding: 1vw;
+}
+
+header p{
+    background-color: #4169E1;
+    
+}
+p{
+    text-transform: uppercase;
+    color: white;
+    font-family:'AeonikTRIAL-bold.ttf';
+    font-weight: 300;
+    letter-spacing: 0.1vw;
+    font-size: .80vw;
+}
+.header{
+    width: 100%;
+    padding: 2.5em;
+    text-align: center;
+}
+.header img{
+    width:21vh;
+}
+.header p{
+    color: white;
+    font-family:'AeonikTRIAL-Light.ttf';
+    margin-top: 3.8vh;
+    font-size: .85em;
+    letter-spacing: .4em;
+}
+.header h1{
+    color: white;
+    max-width: 67%;
+    margin: auto;
+    margin-top: 3.8vh;
+    font-family: 'AeonikTRIAL-Light.ttf';
+    letter-spacing: 1.5px;
+    font-size: 2.3em;
+    line-height: 1.25em;
+}
+
+.header button{
+    background-color: #4169E1;
+    padding: 15px 35px;
+    font-family: 'HelveticaNeueBold.ttf';
+    margin-top: 3.8vh;
+    font-size: 1.2em;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+
+}
+.header #cut-text{
+    color: #C7D5FF;
+    text-decoration: line-through;
+}
+
+.header button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #4169E1;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #4169E1;
+    transition: all ease 1.5s;
+}
+
+.header-lock-img img{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5vw;  
+      
+}
+.page2{
+    width: 100%;
+}
+.digital-smart-door-flex{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.5em 4.5em;
+    flex-wrap: wrap;
+}
+.digital-smart-door-img{
+    max-width: 60%;
+}
+.digital-smart-door-img img{
+    max-width: 100%;
+}
+.digital-smart-door-text{
+    max-width: 35%;
+    padding:  15px;
+}
+
+.digital-smart-door-text h1{
+    font-family: 'AeonikTRIAL-Bold.ttf';
+    font-size: 3.2vw;
+    max-width: 30vw;
+    line-height: 3.5vw;
+}
+.digital-smart-door-text-inner-flex1{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+.digital-smart-door-text-inner-flex1 .black{
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 1.8vw;
+    background-color: #111111;
+    margin-right: 15px;
+}
+
+.digital-smart-door-text-inner-flex1 p{
+    font-family: 'AeonikTRIAL-Light.ttf';
+    text-transform: capitalize;
+    font-size: 1.3vw;
+    color: #111111;
+}
+.digital-smart-door-text-inner-flex2 {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.digital-smart-door-text-inner-flex2 p{
+    font-family: 'AeonikTRIAL-Light.ttf';
+    text-transform: capitalize;
+    font-size: 1.3vw;
+    margin-right: 30px;
+    color: #111111;
+}
+.digital-smart-door-text-inner-flex2 button{
+    background: linear-gradient(to right,#3B813E, #D2F1B6, #3B813E);
+    padding: .3vw 1.5vw;
+    font-family:'AeonikTRIAL-Bold.ttf';
+    border: 1px solid #111111;
+    border-radius: 1px;
+    font-size: .9vw;
+}
+
+.digital-smart-door-text-inner-flex2 .rosegold{
+    width: 1.8vw;
+    height: 1.8vw;
+    border-radius: 1.8vw;
+    background: linear-gradient(to right, #88aa6b, #3B813E);
+    margin-right: 15px;
+    border: 1px solid #111111;
+}
+.visa-img-container img {
+    width: 100%;
+    margin-top: 1em;
+   
+}
+#button2{
+    background-color: #4169E1;
+    padding: 1vw 3vw;
+    font-family: 'HelveticaNeueBold.ttf';
+    margin-top: .8em;
+    font-size: 1.1vw;
+    color: white;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+
+}
+#button2 #cut-text{
+    color: #C7D5FF;
+    text-decoration: line-through;
+}
+
+#button2:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #4169E1;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid #4169E1;
+    transition: all ease 1.5s;
+}
+
+.page2-footer{
+    width: 100%;
+    background: linear-gradient(to right, #3D3D3D, #111111);
+    padding: 1vw ;
+}
+.page2-footer h1{
+    text-align: center;
+    font-family: 'AeonikTRIAL-Bold.ttf';
+    letter-spacing: .25vw;
+    font-size: 2.2vw;
+    
+}
+.gradient-text {
+    background: linear-gradient(to right, #F8F8F8, #A1A1A1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.page-3{
+    width: 100%;
+    /* background-color: #3B813E; */
+    padding: 5vw 9vw;
+}
+.page3-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.page3-text{
+    width: 30vw;
+    font-family:'AeonikTRIAL-Regular.ttf' ;
+    padding: 120px 0 0 0;
+
+}
+.page3-text h1{
+    font-size: 2.8vw;
+    margin-bottom: .2vw;
+    color: rgb(255, 255, 255);
+}
+
+    
+.page3-text span{
+    font-family:'AeonikTRIAL-Bold.ttf' ;
+    color: #4169E1;
+}
+.page3-text p{
+    font-family:'AeonikTRIAL-Regular.ttf';
+    text-transform: inherit;
+    max-width: 72%;
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+    margin-top: 1vw;
+    letter-spacing: 0;
+}
+.underline-page3{
+    width: 16vw;
+    height: .2vw;
+    background-color: #4169E1;
+    margin-bottom: .2vw;
+}
+
+.page3-cards-flex{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vw;
+    flex-wrap: wrap;
+}
+.page3-card-3{
+    width: 16vw;
+    height: 28vw;
+    background-color: #111111;
+    border-radius: 1.3vw;
+    padding: .5vw .6vw;
+    border: 1px solid white;
+    transition: transform 0.5s ease;
+}
+.page3-card-3:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
+}
+.page3-card-3 h1{
+    font-family:'AeonikTRIAL-Bold.ttf' ;
+    font-size: 1.2vw;
+    margin-top: 1.5vw;
+    color: white;
+}
+.card-underline{
+    width: 10vw;
+    height: .1vw;
+    background-color: #4169E1;
+    margin-top: .5vw;
+}
+.page3-card-3 img{
+    width: 100%;
+
+}
+.page3-card-3 p{
+    font-family:'AeonikTRIAL-Light.ttf' ;
+    font-size: .8vw;
+    margin-top: .5vw;
+    text-transform: capitalize;
+    line-height: 1.2vw;
+    max-width: 90%;
+}
+.page4{
+    width: 100%;
+    padding: 1vw 0 0 0;
+}
+.page4-heading{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'AeonikTRIAL-Light.ttf';
+
+}
+.page4-heading h1{
+    font-size: 2.8vw;
+    color: white;
+    letter-spacing: .1vw;
+}
+.page4-heading p{
+    font-family: 'AeonikTRIAL-Regular.ttf';
+    font-size: 1.8vw;
+    text-transform: inherit;
+    letter-spacing: .05vw;
+    color: #4169E1;
+    margin-top: .9vw;
+
+}
+.page4-img{
+    width: 70%;
+    margin: auto;
+    margin-top: 5vw;
+}
+.page4 img{
+    width: 100%;
+    
+}
+#dktimg{
+    margin-top: 5vw;
+}
+#mblimg{
+    display: none;
+}
+.page5{
+    width: 100%;
+
+}
+.page5-heading{
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'AeonikTRIAL-Light.ttf';
+    padding: 1vw 1vw 5vw 1vw;
+}
+.page5-heading h1{
+    font-size: 2.8vw;
+    color: white;
+    letter-spacing: .1vw;
+    margin-top: 5vw;
+}
+.page5-feture-flex{
+    width: 100%;
+    /* background-color: #3B813E; */
+    display: flex;
+    padding: 0vw;
+}
+.page5-feture-text-elem{
+    width: 100%;
+    /* background-color: #3D3D3D; */
+    padding: 0 5vw 0 9vw;
+}
+.page5-feture-cont{
+    margin-bottom: 3vw;
+    transition: all ease 1s;
+    transform-origin: left;
+    
+}
+.page5-feture-cont:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.page5-feture-cont h1{
+    font-size: 2.6vw;
+    color: white;
+    font-family:'AeonikTRIAL-Light.ttf';
+    letter-spacing: .9px;
+    line-height: 3.5vw;
+}
+#border-bottem{
+    width: 10vw;
+    height: .2vw;
+    background-color: #4169E1;
+}
+.six-elem-cont-flex{
+    width: 95%;
+    /* background-color: yellow; */
+    display: flex;
+    padding: 0vw ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.elem{
+    width: 12vw;
+    height: 12vw;
+    background: linear-gradient(to right, #000000, #1d1c1c);;
+    border: 1px solid #4169E1;
+    border-radius: 1vw;
+    padding:1vw;
+    margin-bottom: 3vw;
+}
+.elem img{
+    width: 50%;
+}
+.elem p{
+    font-size: .9vw;
+    text-transform: capitalize;
+    font-family:'AeonikTRIAL-Regular.ttf';
+    letter-spacing: .5px;
+    line-height: 1vw;
+    margin-top: 1vw;
+}
+#Bluetooth{
+    margin-top: 1vw;
+}
+
+.page5-countainer2{
+    width: 62%;
+    padding: 0 0 0 1vw
+}
+.page5-countainer2 img{
+    width: 100%;
+    margin-top: 10vw;
+}
+
+.img-page5-mbl {
+    display: none;
+}
+
+.page6{
+    width: 100%;
+}
+.dktimg{
+    max-width: 75%;
+    margin: auto; 
+    margin-top: 5vh;
+}
+.dktimg img{
+    max-width: 95%;
+    margin: auto;
+    margin-left: 3vw;
+}
+.mblimg img{
+    display: none;
+}
+.page7{
+    width: 100%;  
+    margin-top: 5vw;  
+}
+.page7-heading{
+    max-width: 80%;
+    margin: auto;
+    font-family:'AeonikTRIAL-Light.ttf';
+    color: white;
+    font-size: 1.25vw;
+    padding: .5vw;
+}
+#blue{
+    color: #4169E1;
+}
+.page7-dktimg{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 2vw;
+}
+.page7-dktimg img{
+    max-width: 100%;
+    margin: auto;
+}
+.page7-mblimg img{
+    display: none;
+}
+
+.page8{
+   padding-bottom: 10vw;
+   margin-top: 8vw;
+}
+.image-inner.tilt{
+    transition: transform 1s ease-out;
+    will-change: transform;
+    transform-style: preserve-3d;
+    animation: tilt 8s infinite;
+}
+.image-inner{
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+}
+.image-inner img{
+    width: 100%;
+
+}
+.page9{
+    width: 100%;
+    /* background-color: #3B813E; */
+    padding: 1vw;
+}
+.footer{
+    max-width: 90%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 1vw;
+    padding: 1vw;
+    color: white;
+}
+.footer-heading h1{
+    font-size: 3vw;
+    font-family:'AeonikTRIAL-Regular.ttf';
+}
+.section-flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    gap: 5vw;
+    /* flex-wrap: wrap; */
+    
+}
+.section-1{
+    width: 100%;
+} 
+.section-1 h1{
+    font-size: 1.2vw;
+    font-family:'AeonikTRIAL-Light.ttf';
+    margin-top: .4vw;
+    color: #4169E1;
+}
+  
+.ol-flex-sec-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5vw;
+}
+.ol-flex-sec-1 ol li{
+    list-style: none;
+    font-family:'AeonikTRIAL-Light.ttf';
+    font-size: .9vw;
+    line-height: 1.9vw;
+    letter-spacing: .3px;
+}
+#underline-1{
+    display: none;
+    width: 90%;
+    margin: auto;
+    height: 1px;
+    background-color: #4169E1;
+    margin-top: 1vw;
+}
+.ol-flex-sec-2 {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: .5vw;
+    font-family:'AeonikTRIAL-Light.ttf';
+    gap: 5vw;
+}
+#border{
+    margin-top: 3vw;
+}
+#border h1{
+    color: white;
+    font-size: 3vw;
+}
+#border .ol-flex-sec-2{
+    margin-top: 2vw;
+}
+.ol-flex-sec-2 ol li{
+    list-style: none;
+    font-family:'AeonikTRIAL-Light.ttf';
+    font-size: .9vw;
+    line-height: 1.9vw;
+    letter-spacing: .3px;
+}
+.page10{
+    width: 100%;
+    /* background-color: #3B813E; */
+}
+.page10-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 5vw 10vw;
+    gap: 5vw;
+}
+.page10-text{
+    width: 100%;
+
+}
+.page10-text h1 {
+    color: #4169E1;
+    font-family:'AeonikTRIAL-Regular.ttf';
+    font-size: 3.3vw;
+}
+.page10-text h2 {
+    font-family:'AeonikTRIAL-Light.ttf';
+    color: white;
+    margin-top: .5vw;
+    font-size: 2vw;
+}
+.underline-page10{
+    width: 50%;
+    height: 2px;
+    background-color: #4169E1;
+    margin-top: .3vw;
+}
+.table-round{
+    width: 95%;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    margin-top: 2vw;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family:'AeonikTRIAL-Light.ttf';
+}
+ td {
+    border: 1px solid rgb(124, 124, 124);
+    padding: 1vw 4vw;
+    text-align: center;
+    font-size: .8vw;
+   
+}
+tr:nth-child(even) {
+    background-color: #272626;
+}
+.page10-text h3{
+    font-size: 1.6vw;
+    font-family:'AeonikTRIAL-Light.ttf';
+    color: white;
+    margin-top: 2vw;
+    max-width: 85%;
+}
+.page10-text h3 a{
+    text-decoration: none;
+}
+.page10-text button{
+    border: none;
+    background-color: #4169E1;
+    padding: 1vw 5vw;
+    font-size: 1.8vw;
+    color: white;
+    border-radius: .5vw;
+    margin-top: 2vw;
+}
+.page10-text button i{
+    margin-right: 1vw;
+}
+.page10-image{
+    width: 80%;    
+}
+.page10-image img{
+    width: 100%;
+}
+.page10-flex-part-2{
+    align-items: center;
+}
+.page10-part-2 h1{ 
+    font-size: 2vw;
+    font-family:'AeonikTRIAL-Light.ttf';
+    letter-spacing: .5vw;
+    color: white;
+}
+.underline-page-10{
+    width: 80%;
+    height: .1vw;
+    background-color: #4169E1;
+    margin-top: .2vw;
+}
+.page10-part-2 p{
+    font-size: 1.5vw;
+    font-family:'AeonikTRIAL-Regular.ttf';
+    color: white;
+    text-transform: inherit;
+    max-width: 70%;
+    margin-top: 1vw;
+}
+.page10-part-2 p a {
+    text-decoration: none;
+}
+.page12{
+    width: 100%;
+    /* background-color: #3B813E; */
+    padding: 3vw 0;
+
+
+}
+
+#page11-mbl{
+    display: none;
+}
+
+.page12-container{
+    width:85%;
+    /* height: 200px; */
+    background-color: white;
+    border-radius: 2vw;
+    margin: auto;
+    padding: 2vw;
+}
+.page12-flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page12-mbl-img{
+    display: none;
+}
+.logos{
+    width: 45%;
+    font-family:'AeonikTRIAL-Regular.ttf';
+    text-align: center;
+    padding: 1vw 1vw;
+}
+.logo-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+    /* padding: 1vw; */
+    margin-top: 2vw;
+}
+#trusted-margin{
+    margin-top: 4vw;
+}
+#trusted-margin-img{
+    margin-top: 2vw;
+}
+.logo-flex img{
+    width: 25%;
+}
+.logos h1{
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+.uravshi{
+    width: 50%;
+    position: relative;
+}
+.urvashi-rotate{
+    width: 100%;
+    /* transform: rotate(-10deg); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%) rotate(-20deg);
+}
+.urvashi-rotate img{
+    width: 95%;
+}
+.our-householder-container{
+    max-width: 85%;
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    font-family:'AeonikTRIAL-Regular.ttf';
+    padding: 3vw;
+    margin-top: 8vw;
+    border-radius: 2vw;
+}
+
+.page12-container-part-2-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vw;
+}
+.page12-imgdiv{
+    width: 15%;
+}
+.page12-container-part-2-flex img{
+    width: 100%;
+}
+.page13{
+    width: 100%;
+    text-align: center;
+
+}
+.slider-conatiner-main{
+    width: 95%;
+    /* background-color: #4169E1; */
+    margin: auto;
+}
+.slider-conatiner-main h1{
+    font-family:'AeonikTRIAL-Light.ttf';
+    margin-bottom: 5vw;
+    margin-top: 2vw;
+    letter-spacing: .5px;
+    color: white;
+    font-size: 3vw;
+}
+.slider-cont-flex{
+    width: 90%;
+    margin: auto;
+    /* background-color: #a0ee5d; */
+    padding: 5px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: none;
+    /* overflow: hidden; */
+    flex-wrap: nowrap ;
+}
+.slider-flex{
+    /* width: 625px ; */
+    /* height: 300px ; */
+    /* background-color: #c23232; */
+    border: 1px solid white;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    display: inline-flex !important ;
+    
+    justify-content: space-between !important ;
+    /* align-items: center !important; */
+    cursor: pointer;
+    font-family:'AeonikTRIAL-Light.ttf';
+    gap: 50px ;
+    padding: 20px;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    text-align: start;
+}
+.slider-flex h1{
+    font-size:2vw;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 2.5vw;
+
+}
+.slider-text{
+    width: 60%;
+    /* background-color: #C7D5FF; */
+}
+.slider-text img{
+    width: 50%;
+    margin-top: -80px;
+    margin-left: -10px;
+}
+.slider-text p{
+    text-transform: inherit;
+    font-family:'AeonikTRIAL-Light.ttf';
+    font-size: 1.2vw;
+    max-width: 100%;
+    margin-top:-1vw;
+}
+.slider-text h3{
+    font-family:'AeonikTRIAL-Regular.ttf';
+    font-size: 1.5vw;
+    /* padding: 40px 0 0 0; */
+    /* background-color: #3D3D3D; */
+    margin-top: 1vw;
+    color: white;
+    letter-spacing: 2px;
+}
+.slider-img{
+    width: 25%; 
+    /* padding: 20px ; */
+    /* background-color: #3B813E; */
+    margin-right: 2vw;
+}
+.slider-img img{
+    width: 100%;
+}
+.page14{
+    width: 100%;
+    background-color: #4169E1;
+    text-align: center;
+    padding: 1vw;
+    color: white;
+    margin-top: 5vw;
+}
+.page14 h1{
+    font-size: 1vw;
+    font-family:'AeonikTRIAL-Light.ttf';
+    letter-spacing: 1px;
+}
+
+@keyframes tilt {
+    0% {
+        transform: perspective(800px) rotateY(-6deg) scaleZ(1);
+    }
+    50% {
+        transform: perspective(800px) rotateY(10deg) scaleZ(1);
+    }
+    100% {
+        transform: perspective(800px) rotateY(-6deg) scaleZ(1);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .digital-smart-door-flex{
+        width: 100%;
+        flex-direction: column;
+        /* padding: 0; */
+        flex-wrap: wrap;
+    }
+    .digital-smart-door-img{
+        max-width: 100%;
+    }
+    .digital-smart-door-img img{
+        max-width: 100%;
+    }
+    .digital-smart-door-text{
+        max-width: 100%;
+        padding:  2vw;
+    }
+    
+    .digital-smart-door-text h1{
+        font-family: 'AeonikTRIAL-Bold.ttf';
+        font-size: 8vw;
+        max-width: 90%;
+        line-height:9.5vw;
+    }
+    .digital-smart-door-text-inner-flex1{
+        margin-top:20px;
+    }
+    .digital-smart-door-text-inner-flex1 .black{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 5vw;
+        margin-right: 10%;
+    }
+    
+    .digital-smart-door-text-inner-flex1 p{
+        font-size: 4vw;
+    }
+    .digital-smart-door-text-inner-flex2 {
+        margin-top: 20px;
+    }
+    .digital-smart-door-text-inner-flex2 p{
+        font-size: 4vw;
+        /* margin-left: 10%; */
+    }
+    .digital-smart-door-text-inner-flex2 button{
+        /* display: none; */
+        font-size: 3vw;
+        margin-left:40px ;
+    }
+    
+    .digital-smart-door-text-inner-flex2 .rosegold{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 5vw;
+        margin-right: 10%;
+    }
+    .visa-img-container img {
+        width: 100%;
+        margin-top: 1em;
+       
+    }
+    #button2{
+        padding: 1vw 2vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        letter-spacing: 1px;
+        max-width: 100%;
+        margin: auto;
+    
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    header{
+        width: 100%;
+        text-align: center;
+        padding: 1vw;
+    }
+    .text p{
+        font-size: 2.5vw;
+    }
+    .text
+    {
+        width:100%;
+        animation: marquee 30s linear infinite;
+        font-size: 2vw;
+    }
+    @keyframes marquee {
+        0% {transform:translateX(100%);}
+        100% {transform:translateX(-100%);}
+    }
+    header {
+        width: 100%;
+        padding: 1vw;
+        background-color: #4169E1;
+        text-align: center;
+        overflow: hidden;
+    }
+    .header{
+        width: 100%;
+        padding: .5em;
+        text-align: center;
+    }
+    .header p{
+        font-size: 2.5vw;
+        margin-top: 3vw;
+    }
+    .header img{
+        width: 25vw;
+        margin-top: 3vw;
+    }
+    .header h1{
+        color: white;
+        max-width: 80%;
+        margin: auto;
+        margin-top: 3.8vh;
+        font-family: 'AeonikTRIAL-Light.ttf';
+        letter-spacing: 1.5px;
+        font-size: 6vw;
+        line-height: 1.25em;
+    }
+    .header button{
+        max-width: 80%;
+        font-size: 3.5vw;
+        padding: 2vw 5vw;
+        letter-spacing: 0;
+    }
+    .header-lock-img img{
+        width: 100%;
+        max-width: 90%;
+        margin-top: 6vh;    
+    }
+    .digital-smart-door-flex{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .digital-smart-door-img{
+        max-width: 100%;
+    }
+    .digital-smart-door-img img{
+        max-width: 100%;
+    }
+    .digital-smart-door-text{
+        max-width: 100%;
+        padding:  5vw;
+    }
+    
+    .digital-smart-door-text h1{
+        font-family: 'AeonikTRIAL-Bold.ttf';
+        font-size: 8vw;
+        max-width: 90%;
+        line-height:9.5vw;
+    }
+    .digital-smart-door-text-inner-flex1{
+        margin-top:20px;
+    }
+    .digital-smart-door-text-inner-flex1 .black{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 5vw;
+        margin-right: 10%;
+    }
+    
+    .digital-smart-door-text-inner-flex1 p{
+        font-size: 4vw;
+    }
+    .digital-smart-door-text-inner-flex2 {
+        margin-top: 20px;
+    }
+    .digital-smart-door-text-inner-flex2 p{
+        font-size: 4vw;
+    }
+    .digital-smart-door-text-inner-flex2 button{
+        font-size: 3vw;
+        /* margin-right:34vw ; */
+    }
+    
+    .digital-smart-door-text-inner-flex2 .rosegold{
+        width: 5vw;
+        height: 5vw;
+        border-radius: 5vw;
+        margin-right: 10%;
+    }   
+    .visa-img-container img {
+        width: 100%;
+        margin-top: 8vw;
+       
+    }
+    #button2{
+        padding: 1vw 2vw;
+        margin-top: 1vw;
+        font-size: 3vw;
+        letter-spacing: 1px;
+        max-width: 100%;
+        margin: auto;
+    
+    }
+    .page2-footer h1{
+        font-size: 5vw;
+        
+    }
+    .page-3{
+        width: 100%;
+    }
+    .page3-flex{
+        flex-direction: column;
+    }
+    .page3-text{
+        width: 100%;
+        padding: 0;
+        margin-top: 7vw;
+    
+    }
+    .page3-text h1{
+        font-size: 9vw;
+    }
+    .page3-text p{
+        max-width: 100%;
+        font-size: 4vw;
+        line-height: 5vw;
+        margin-top: 5vw;
+    }
+    .underline-page3{
+        width: 65vw;
+        height: .3vw;
+        background-color: #4169E1;
+        margin-bottom: .3vw;
+    }
+    
+    .page3-cards-flex{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6vw;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .page3-card-3{
+        width: 400px;
+        height: 130vw;
+        background-color: #111111;
+        border-radius: 20px;
+        padding: 12px;
+        border: 1px solid white;
+        transition: transform 0.5s ease;
+    }
+    
+    .page3-card-3 h1{
+        font-family:'AeonikTRIAL-Bold.ttf' ;
+        font-size: 6vw;
+        margin-top: 20px;
+        color: white;
+    }
+    .card-underline{
+        width: 50vw;
+        height: .4vw;
+        margin-top: 3vw;
+    }
+    .page3-card-3 img{
+        width: 100%;
+    
+    }
+    .page3-card-3 p{
+        font-size: 4vw;
+        margin-top: 2vw;
+        line-height: 6vw;
+        max-width: 100%;
+    }
+    .page4{
+        width: 100%;
+        padding: 1vw 0 0 0;
+    }
+    .page4-heading{
+        max-width: 90%;
+        margin-top: 3vw;
+    
+    }
+    .page4-heading h1{
+        font-size: 6vw;
+    }
+    .page4-heading p{
+        font-size: 4vww;
+    
+    }
+    .page4-img{
+        width: 90%;
+        margin: auto;
+        margin-top: 5vw;
+    }
+    .page4 img{
+        width: 100%;
+        
+    }
+    #dktimg{
+        margin-top: 5vw;
+    }
+    #mblimg{
+        display: block;
+        margin-top:10vw ;
+    }
+    #dktimg{
+        display: none;
+    }
+
+    .dktimg img{
+        display: none;
+    }
+    /* page5 responsive */
+
+    .page5{
+        width: 100%;
+    
+    }
+    .page5-heading h1{
+        font-size: 3.5vw;
+        color: white;
+        letter-spacing: .1vw;
+        margin-top: 5vw;
+    }
+    .page5-feture-flex{
+        width: 100%;
+        /* background-color: #3B813E; */
+        display: flex;
+        padding: 0vw;
+    }
+    .page5-feture-text-elem{
+        width: 100%;
+        /* background-color: #3D3D3D; */
+        padding: 0 5vw 0 9vw;
+    }
+    .page5-feture-cont{
+        margin-bottom: 3vw;
+        transition: all ease 1s;
+        transform-origin: left;
+        
+    }
+    .page5-feture-cont:hover{
+        cursor: pointer;
+        transform: scale(1.08);
+    }
+    
+    .page5-feture-cont h1{
+        font-size: 4.5vw;
+        line-height: 6.5vh;
+    }
+    #border-bottem{
+        width: 20vw;
+    }
+    .six-elem-cont-flex{
+        width: 100%;
+        /* background-color: yellow; */
+        height: 100%;
+        display: flex;
+        padding: 1vw ;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        /* background-color: #3B813E; */
+        margin-bottom: 5vw;
+    }
+    .elem{
+        width: 22vw;
+        height: 100%;
+        background: linear-gradient(to right, #000000, #1d1c1c);;
+        border: 1px solid #4169E1;
+        border-radius: 2.5vw;
+        padding:1vw;
+        margin-bottom: 3vw;
+        padding: 2vw;
+    }
+    .elem img{
+        width: 70%;
+    }
+    .elem p{
+        font-size: 1.7vw;
+        text-transform: capitalize;
+        font-family:'AeonikTRIAL-Regular.ttf';
+        letter-spacing: .5px;
+        line-height: 2vw;
+        margin-top: 1vw;
+    }
+    #Bluetooth{
+        margin-top: 1vw;
+    }
+    
+    .page5-countainer2{
+        width: 62%;
+        padding: 0 0 0 1vw
+    }
+    .page5-countainer2 img{
+        width: 100%;
+        margin-top: 10vw;
+        display: none;
+    }
+    
+    .img-page5-mbl {
+        display: block;
+        width: 100%;
+        /* background-color: #3B813E; */
+    }
+    .img-page5-mbl img{
+        width: 100%;
+        /* right: 0; */
+    }
+    .page6 .mblimg img{
+        width: 100%;
+        display: block;
+
+    }
+    .footer{
+        border-radius: 2vw;
+        padding: 3vw;
+    }
+    .footer-heading h1{
+        font-size: 6vw;
+        font-family:'AeonikTRIAL-Regular.ttf';
+        margin-bottom: 5vw;
+    }
+    .section-flex{
+        flex-direction: column;
+    }
+    .section-1 h1{
+        font-size: 5vw;      
+    }
+      
+    .ol-flex-sec-1{
+        margin-top: 1.5vw;
+    }
+    .ol-flex-sec-1 ol li{
+        font-size: 3.5vw;
+        line-height: 8vw;
+    }
+
+    #underline{
+        display: block;
+        width: 90%;
+        margin: auto;
+        height: 1px;
+        background-color: #4169E1;
+        margin-top: 5vw;
+    }
+    #underline-1{
+        display: block;
+        width: 90%;
+        margin: auto;
+        height: 1px;
+        background-color: #4169E1;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+    }
+    #border h1{
+        font-size: 6vw;
+        margin-bottom: 10vw;
+    }
+    .ol-flex-sec-2  {
+        flex-direction: column;
+        margin-top: 5vw;
+    }   
+
+    #border .ol-flex-sec-2{
+        margin-top: 5vw;
+    }
+    .ol-flex-sec-2 ol {
+        margin-top: -5vw;
+    }
+    .ol-flex-sec-2 ol li{
+        font-size: 3.5vw;
+        line-height: 8vw;
+        margin-left: 8vw;
+        list-style: disc;
+    }
+    .page10-flex{
+        flex-direction: column-reverse;
+    }
+    .page10-image{
+        width: 100%;
+    }
+
+    .page10-text h1 {
+        font-size: 4.5vw;
+    }
+    .page10-text h2 {
+        font-size: 3vw;
+    }
+    .underline-page10{
+        width: 50%;
+        height: 1px;
+        background-color: #4169E1;
+        margin-top: .3vw;
+    }
+    .table-round{
+        width: 100%;
+        border: .5px solid white;
+        border-radius: 5px;
+        margin-top: 5vw;
+    }
+    td {    
+        font-size: 2vw;
+       
+    }
+    .page10-text h3{
+        font-size: 2.8vw;
+    }
+    .page10-text button{
+        padding: 2vw 9vw;
+        font-size: 2.8vw;
+    }
+    .page10-flex-part-2{
+        align-items: center;
+        text-align: left;
+        flex-direction: column;
+    }
+    .page10-part-2 h1{ 
+        font-size: 5vw;
+    }
+    .underline-page-10{
+        width: 66%;
+        height: .1vw;
+        background-color: #4169E1;
+        margin-top: .2vw;
+    }
+    .page10-part-2 p{
+        font-size: 4vw;
+        font-family:'AeonikTRIAL-Regular.ttf';
+        color: white;
+        text-transform: inherit;
+        margin-top: 3vw;
+        text-align: left;
+        width: 100%;
+        max-width: 80%;
+        margin-left: 0;
+        margin-right: auto;
+        line-height: 5vw;
+    }
+    #page11-dxt{
+        display: none;
+    }
+    #page11-mbl{
+        display: block;
+        margin-top: 8vw;
+    }
+    .page12{
+        width: 100%;
+        /* background-color: #3B813E; */
+        padding: 3vw 0;
+        margin-top: 50vw;
+    }
+    
+    .page12-container{
+        width:85%;
+        height: 90vw;
+        background-color: white;
+        border-radius: 2vw;
+        margin: auto;
+        padding: 2vw;
+        
+    }
+    .page12-flex-container{
+        flex-direction: column;
+        position: relative;
+    }
+    .logos{
+        width: 100%;
+        font-family:'AeonikTRIAL-Regular.ttf';
+        text-align: center;
+        padding: 1vw 1vw;
+        margin-top: 35vw;
+    }
+    .logos h1{
+        margin-top: 3vw;
+        font-size: 5vw;
+    }
+    .uravshi{
+        display: none;
+    }
+    .our-householder-container h1{
+        font-size: 5vw;
+    }
+    .page12-mbl-img{
+        display: block;
+        width: 110%;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .page12-mbl-img img{
+        width: 100%;
+    }
+    /* Slider */
+
+
+    .slider-conatiner-main{
+        width: 100%;
+        padding-top: 5px;
+    }
+    .slider-conatiner-main h1{
+        font-family:'AeonikTRIAL-Light.ttf';
+        margin-bottom: 5vw;
+        margin-top: 2vw;
+        letter-spacing: .5px;
+        color: white;
+        font-size: 1vw;
+    }
+    .slider-cont-flex{
+        width: 95%;
+        background-color: #4169E1;
+    }
+    .slider-flex{
+        background-color: #e70c0c;
+        height: 100%;
+    }
+    .slider-flex h1{
+        font-size:.5vw;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 2.5vw;
+    
+    }
+    .slider-text{
+        width: 100%;
+        /* background-color: #C7D5FF; */
+    }
+    .slider-text img{
+        width: 50%;
+        margin-top: -80px;
+        margin-left: -10px;
+    }
+    .slider-text p{
+        text-transform: inherit;
+        font-family:'AeonikTRIAL-Light.ttf';
+        font-size: .5vw;
+        max-width: 100%;
+        margin-top:-1vw;
+    }
+    .slider-text h3{
+        font-family:'AeonikTRIAL-Regular.ttf';
+        font-size: .5vw;
+        /* padding: 40px 0 0 0; */
+        /* background-color: #3D3D3D; */
+        margin-top: 1vw;
+        color: white;
+        letter-spacing: 2px;
+    }
+    .slider-img{
+        width: 25%; 
+        /* padding: 20px ; */
+        /* background-color: #3B813E; */
+        margin-right: 2vw;
+    }
+    .slider-img img{
+        width: 100%;
+    }
+    
+
+}
